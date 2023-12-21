@@ -1,11 +1,9 @@
 ﻿namespace FosteringAPI.Models
 {
-    public class MatchsDTO
+    public class Matchs
     {
-        public string MentorName { get; }
-        public string MentorPhone { get; }
-        public string FreshmanName { get; }
-        public string FreshmanPhone { get; }
+        public Mentor Mentor { get; }  
+        public Freshman Freshman { get; }
  
     }
 }
