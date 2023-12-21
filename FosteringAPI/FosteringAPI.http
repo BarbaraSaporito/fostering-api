@@ -1,0 +1,6 @@
+@FosteringAPI_HostAddress = http://localhost:5082
+
+GET {{FosteringAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
