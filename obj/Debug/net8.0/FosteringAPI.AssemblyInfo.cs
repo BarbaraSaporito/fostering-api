@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FosteringAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a1d6b6a703b442e53226eb9f6c5a02334c8f0d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("FosteringAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FosteringAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

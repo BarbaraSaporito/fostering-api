@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<FosteringContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("ServerConnection")));
+builder.Services.AddDbContext<StudentContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("ServerConnection")));
 
 
 var app = builder.Build();
