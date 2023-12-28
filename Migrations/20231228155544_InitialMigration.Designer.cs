@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace FosteringAPI.Migrations
 {
-    [DbContext(typeof(StudentContext))]
+    [DbContext(typeof(FosteringContext))]
     [Migration("20231228155544_InitialMigration")]
     partial class InitialMigration
     {

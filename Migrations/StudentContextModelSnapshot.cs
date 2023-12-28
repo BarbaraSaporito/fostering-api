@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace FosteringAPI.Migrations
 {
-    [DbContext(typeof(StudentContext))]
+    [DbContext(typeof(FosteringContext))]
     partial class StudentContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

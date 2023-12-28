@@ -3,10 +3,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace FosteringAPI.Data
 {
-    public class StudentContext : DbContext
+    public class FosteringContext : DbContext
     {
-        public StudentContext(DbContextOptions<StudentContext> options) : base(options) { }
-
+        public FosteringContext(DbContextOptions<FosteringContext> options) : base(options) { }
+        public DbSet<Student> Students { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             IConfiguration configuration = new ConfigurationBuilder()
@@ -16,6 +16,6 @@ namespace FosteringAPI.Data
             optionsBuilder.UseSqlServer(configuration.GetConnectionString("ServerConnection"));
         }
 
-        public DbSet<Student> Students { get; set; }
+       
     }
 }
